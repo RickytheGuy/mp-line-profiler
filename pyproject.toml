@@ -1,0 +1,11 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+
+[project]
+name = "mp-line-profiler"
+version = "0.0.1"
+description = "A line profiler for Python that works with multiprocessing"
+dependencies = [
+    "line_profiler",
+]
+license = {text = "BSD-3-Clause"}
