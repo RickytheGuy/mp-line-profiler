@@ -1,8 +1,7 @@
 import multiprocessing as mp
 from pathlib import Path
 
-from mp_line_profiler import profile
-from mp_line_profiler._profile import profile_context
+from mp_line_profiler import profile, profile_context
 
 @profile
 def worker(n):

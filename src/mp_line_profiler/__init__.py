@@ -1,1 +1,1 @@
-from ._profile import profile
+from ._profile import profile, profile_context
