@@ -23,6 +23,7 @@ def test_worker_profile():
         assert Path("profile_output.txt").exists(), "Profile output file was not created."
         assert open("profile_output.txt").read(), "Profile output file is empty."
     finally:
+        pass
         if Path("profile_output.txt").exists():
             Path("profile_output.txt").unlink()
 
